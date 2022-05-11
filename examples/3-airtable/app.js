@@ -17,7 +17,7 @@ const fetchProducts = async () =>{
             </div>
             </a>
           `
-        })
+        }).join('')
 
         result.innerHTML = products;
     } catch (error) {

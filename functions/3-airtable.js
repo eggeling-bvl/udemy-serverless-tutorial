@@ -19,7 +19,7 @@ exports.handler = async (event,context,cb) =>{
      
     return {
         statusCode:200,
-        body: JSON.stringify(products),
+        body: JSON.stringify(records),
     }
     } catch (error) {
         return {
